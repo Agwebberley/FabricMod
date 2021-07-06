@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "techaul",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "TecHaul",
+  "description": "TechHaul is a complete tech overhaul Mod.",
   "authors": [
-    "Me!"
+    "Agwebberley"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://knighthawksites.com",
+    "sources": "https://github.com/Agwebberley/FabricMod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "cc",
+  "icon": "assets/techaul/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.agwebberley.techaul.Techaul"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
